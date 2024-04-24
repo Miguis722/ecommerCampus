@@ -18,6 +18,7 @@
 }
 .header__nav div:nth-child(2){
     font-family: 'EncodeSans-SemiBold';
+    color: var(--color-2);
 }
 
 .main {
@@ -61,6 +62,7 @@
 .product__description h3{
     font-size: 1em;
     font-family: 'EncodeSans-SemiBold';
+    color: var(--color-2);
 }
 .product__description small{
     margin-top: 2px;
@@ -95,6 +97,11 @@
     height: 28px;
     border-radius: 5px;
 }
+
+.product__select span {
+    font-family: 'EncodeSans-SemiBold';
+}
+
 .product__select img{
     height: 20px;
     width: 20px;
@@ -189,4 +196,38 @@
     display: flex;
     justify-content: space-between;
     margin-bottom: 15px;
+}
+
+.footer{
+    /* background: red; */
+    position: fixed;
+    bottom: 10px;
+    width: 100%;
+    padding: var(--space-layout-padding-lr);
+}
+.footer__ul{
+    background: var(--color-4);
+    height: 55px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 40px;
+}
+.footer__ul li{
+    list-style: none;
+    display: flex;
+}
+.footer__ul li a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    /* background: red; */
+    text-decoration: none;
+    gap: 5px;
+    color: var(--color-5);
+}
+.footer__ul li a span{
+    font-family:"EncodeSans-Medium";
 }
