@@ -164,7 +164,7 @@
     width: 100%;
 }
 .dropdown:hover .dropdown__button{
-    background-color: #f9db5c;
+    background-color: gray;
     color: var(--color-1);
     border-bottom-left-radius:0;
     border-bottom-right-radius: 0;
