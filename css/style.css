@@ -229,10 +229,17 @@
     width: var(--layout-imagen-width);
     height: var(--layout-imagen-height);
     overflow: hidden;
+    margin: 5px;
+    border:2px solid black;
 }
 
 .section__front__page img {
     position: absolute;
+    transition: transform 0.3s ease;
+}
+
+.section__front_page img:hover {
+    transform: scale(1.1); 
 }
 
 .section__front__page img:first-child {
