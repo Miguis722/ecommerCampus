@@ -154,7 +154,7 @@
     display: block;
 }
 .dropdown__content div:hover{
-    background-color: var(--color-1);
+    background-color: #f9db5c;
     color: var(--color-5);
     border-bottom-left-radius:0;
     border-bottom-right-radius: 0;
@@ -164,8 +164,8 @@
     width: 100%;
 }
 .dropdown:hover .dropdown__button{
-    background-color: var(--color-1);
-    color: var(--color-5);
+    background-color: #f9db5c;
+    color: var(--color-1);
     border-bottom-left-radius:0;
     border-bottom-right-radius: 0;
 }
