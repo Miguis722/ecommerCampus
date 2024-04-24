@@ -121,6 +121,11 @@
     align-items: center;
     gap: 10px;
 }
+
+.shopping__card img {
+    width: 30px;
+    height: 30px;
+}
 .shopping__option {
 }
 .dropdown__content {
