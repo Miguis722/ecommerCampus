@@ -7,5 +7,9 @@ addEventListener("DOMContentLoaded", async(e)=>{
     let params = new URLSearchParams(location.search);
     let id = params.get('id');
     if(!localStorage.getItem(id)) localStorage.setItem(id, JSON.stringify(await getProductId({id})));
-    main__section_gallery.innerHTML = await galleryCategory(JSON.parse(localStorage.getItem(id)))
+    let info = JSON.parse(localStorage.getItem(id));
+
+    main__section_gallery.innerHTML = await galleryCategory(info)
+    main__section_gallery.innerHTML = await titleProductDetail(info)
+    // main__section_gallery.innerHTML = await galleryCategory(JSON.parse(localStorage.getItem(id)))
 })
