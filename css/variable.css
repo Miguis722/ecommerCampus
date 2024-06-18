@@ -18,20 +18,19 @@
 
 @font-face {
     font-family: "EncodeSans-Regular";
-    src: url("../storage/font/encode-sans/EncodeSans-Regular.ttf");
+    src: url(../storage/font/encode-sans/EncodeSans-Regular.ttf);
 }
 
 @font-face {
     font-family: "EncodeSans-Medium";
-    src: url("../storage/font/encode-sans/EncodeSans-Medium.ttf");
+    src: url(../storage/font/encode-sans/EncodeSans-Medium.ttf);
 }
 
 @font-face {
     font-family: "EncodeSans-SemiBold";
-    src: url("../storage/font/encode-sans/EncodeSans-SemiBold.ttf");
+    src: url(../storage/font/encode-sans/EncodeSans-SemiBold.ttf);
 }
 
 @font-face {
     font-family: "EncodeSans-Bold";
-    src: url("../storage/font/encode-sans/EncodeSans-Bold.ttf");
-}
+    src: url(../storage/fonts/encode-sans/EncodeSans-Bold.ttf);}
