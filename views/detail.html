@@ -5,7 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Detalles</title>
     <link rel="stylesheet" href="../css/details.css">
-    <script type="module" src="../js/main.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script> <!-- Esto se usa para que cuando se guarde los datos, se muestre una alerta "bonita"-->
+    <script type="module" src="../js/detail.js" defer></script> <!-- IMPORTANTE REVISAR. Toca revisar el javascript
+                                                     que se está importanto porque puede ser que estemos trayendo el que no es. -->
 </head>
 <body>
     <main class="main">
@@ -42,42 +44,42 @@
         </section>
         <section class="main__section">
             <article class="product__information">
-                <p>Feel like your favorite character from
+                <!-- <p>Feel like your favorite character from
                     Dark Souls Remastered with this
-                    hoodie.<strong>Read More. . .</strong></p>
+                    hoodie.<strong>Read More. . .</strong></p> -->
+                    <hr>
             </article>
-            <hr>
         </section>
         <section class="main__section">
             <article class="product__custom">
                 <div class="product__size">
-                    <h5>Chose Size</h5>
-                    <div>
+                  <!--  <h5>Chose Size</h5>
+                     <div>
                         <img src="../storage/img/s.svg" alt="">
                         <img src="../storage/img/m.svg" alt="">
                         <img src="../storage/img/l.svg" alt="">
                         <img src="../storage/img/xl.svg" alt="">
-                    </div>
+                    </div> -->
                 </div>
                 <div class="product__color">
-                    <h5>Color</h5>
+                    <!-- <h5>Color</h5>
                     <div>
                         <img src="../storage/img/1.svg" alt="">
                         <img src="../storage/img/2.svg" alt="">
                         <img src="../storage/img/3.svg" alt="">
-                    </div>
+                    </div> -->
                 </div>
             </article>
         </section>
     </main>
     <footer class="footer">
         <ul class="footer__ul">
-            <li>
+            <!-- <li>
                 <a href="checkout.html">
                     <img src="../storage/img/shopping-cart.svg">
                     <span>Add to Cart | $100.99 <del><sub>$190.99</sub></del></span>
                 </a>
-            </li>
+            </li> -->
         </ul>
     </footer>
 </body>
