@@ -23,13 +23,7 @@
 .main {
     /* background: red; */
     padding: var(--space-layout-padding-lr);
-}
-
-.checkout__details {
-    /* background: green; */
-    height: 275px;
     overflow-y: scroll;
-    /* padding-top: 15px; */
 }
 
 .details__product {
