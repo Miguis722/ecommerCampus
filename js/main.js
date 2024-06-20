@@ -44,7 +44,7 @@ addEventListener("DOMContentLoaded", async e => {
     nav__ul.innerHTML = await menuListCategoryIndex(JSON.parse(localStorage.getItem("getAllCategory")));
     
     history.pushState(null, "", "?id=");
-    input__search.value = "zapato";
+    input__search.value = " ";
     const eventoChange = new Event('change');
     input__search.dispatchEvent(eventoChange); 
 });

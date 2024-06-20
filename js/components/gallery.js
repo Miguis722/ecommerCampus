@@ -6,7 +6,7 @@ export const galleryIndex = (res, category)=>{
         <section>
            <div class="section__front_page">
                <a href="views/detail.html?id=${value.asin}">
-                   <img src="${value.product_photo}">
+                   <img src="${value.product_photo}" style="width: 20vh">
                </a>
                <img src="storage/img/heart.svg">
            </div>
